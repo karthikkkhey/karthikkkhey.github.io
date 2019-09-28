@@ -1,0 +1,153 @@
+.container{
+	display:grid:
+	grid-gap:20px;
+}
+.info-image{
+	display:grid;
+	grid-gap:20px;
+	background:url("image-req.jpg") ;
+	padding:8rem;
+	margin:.3rem;
+	background-size: cover;
+}
+.top-box a{
+	text-decoration:none;
+	color:#999;
+	margin:.5rem;
+	padding:.2rem;
+	border:1.5px solid pink;
+	background:#000;
+}
+/*.showcase{
+	grid-area: showcase;
+	
+}*/
+/*.top-bar-1{
+	padding:0.8rem;
+	margin:1.1rem;
+	background:#333;
+
+}*/
+.top-box-1{
+	display: grid;
+	grid-column:1fr;
+	margin:.5rem;
+	padding:.2rem;
+	border:2px solid #222;
+	background:#333;
+	justify-items:center;
+	transition:all 1s;
+}
+.top-box-1:hover{
+	transform:scale(1.1);
+}
+.top-box-2{
+	display: grid;
+	grid-column:1fr;
+	margin:.5rem;
+	padding:.2rem;
+	border:2px solid #222;
+	background:#333;
+	justify-items:center;
+	transition:all 1s;
+}
+.top-box-2:hover{
+	transform:scale(1.1);
+}
+/*.top-bar-1{
+	grid-area:top-bar-1;
+	padding:0.8rem;
+	margin:.4rem;
+	background:#333;
+	background-position: cover;
+}
+.top-bar-2{
+	grid-area:top-bar-2;
+	padding:0.8rem;
+	margin:.4rem ;
+	background:#333;
+
+}*/
+.box{
+	display: grid;
+	grid-template-columns:repeat(3,1fr);
+	background:#777;
+}
+.box-1{
+	padding:1rem;
+	margin:1rem;
+	display: flex;
+	flex-direction: initial;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.box-1 a{
+	text-decoration:none;
+	color:pink;
+}
+.info-image p{
+	color:yellow;
+}
+.footer{
+	color:brown;
+	display:grid;
+	justify-items:center;
+	font-size:1rem;
+	padding:.6rem;
+	margin:.6rem;
+	background:#222;
+}
+h1{
+	color:white;
+	font-size:3rem;
+	transition:all 1s;
+
+}
+h1:hover{
+	transform: skew(25deg);
+	color:#000;
+}
+.button{
+	margin:1.1rem;
+	padding:0.8rem;
+	background-color:black;
+	border:1px solid green;
+}
+.button a{
+	text-decoration:none;
+	color:pink;
+}
+.button:hover{
+	box-shadow:0.2rem 0.2rem black;
+}
+.navi-list{
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	padding:1rem;
+	margin:0.5rem;
+	background:#bbb;
+	border:2px solid purple;
+	justify-items:center;
+
+	
+}
+.navi-list a{
+	text-decoration: none;
+	color:black;
+	padding:0.5rem;
+	margin:1.1rem;
+	border:2px solid grey;
+	background-color:rgba(217,87,0,0.6);
+	
+}
+.navi-list a:hover{
+	color:white;
+	background-color:#000;
+}
+/*media queries*/
+@media(max-width:700px) {
+	h1{
+		font-size:1.5rem;
+	}
+}
